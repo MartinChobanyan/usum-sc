@@ -1,0 +1,22 @@
+.verev#logo {
+    width: 100px; /* sizes */
+    height: 100px;
+    overflow: hidden;
+    background: #fff;
+    padding: 5px; /* spaces */
+    border-radius: 50%;
+    /*Cross-Browser zibil*/
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: #aaa 1px solid;
+    box-shadow: 0px 1px 1px 1px #bbb; /* shoxq */
+    -moz-box-shadow: 0px 1px 1px 1px #bbb;
+    -webkit-box-shadow: 0px 1px 1px 1px #bbb;
+}
+.verev#logo img {
+    display: block;
+    width:100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
